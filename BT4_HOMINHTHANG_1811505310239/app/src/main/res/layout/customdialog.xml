@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ TÀI KHOẢN"
+        android:textSize="30dp"
+        android:textColor="#D32F2F">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TÊN ĐĂNG NHÂP"
+        android:id="@+id/edttk"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ĐĂNG KÝ"
+        android:password="true"
+        android:id="@+id/edtmk"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp">
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐỒNG Ý"
+            android:textColor="#D32F2F"
+            android:textSize="25dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/buttondongy">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THOÁT"
+            android:textColor="#D32F2F"
+            android:textSize="25dp"
+            android:id="@+id/buttonhuy">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
